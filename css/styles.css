@@ -1,0 +1,124 @@
+/* 
+==============
+fonts
+==============
+*/
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  /* overflow: hidden; */
+  text-transform: capitalize;
+}
+.container {
+  display: flex;
+  /* border: 5px solid blue; */
+}
+.box {
+  padding: 30px;
+  flex: 0 0 50%;
+  box-sizing: border-box;
+  align-self: center;
+}
+/* 
+==============
+box-1
+==============
+*/
+.box-1 {
+  /* background: red; */
+  height: 100vh;
+  padding: 10rem 5rem 10rem 15rem;
+}
+.box-1 h1 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+.box-1 p {
+  color: rgba(0, 0, 0, 0.7);
+}
+/* 
+==============
+box-2
+==============
+*/
+.box-2 {
+  background: whitesmoke;
+  height: 100vh;
+  padding: 12rem 12rem 12rem 5rem;
+}
+.box-2 h3 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.box-2 h4 {
+  color: rgba(0, 0, 0, 0.7);
+  padding-bottom: 0.5rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: none;
+  margin-bottom: 1.25rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+.form-control::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+}
+.btn {
+  text-transform: uppercase;
+  background: #0d1326;
+  color: white;
+  margin: 1rem 0;
+  padding: 0.5rem 0.75rem;
+  letter-spacing: 0.25rem;
+  display: inline-block;
+  font-weight: 700;
+  transition: all 0.2s linear;
+  font-size: 0.875rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+  transform: scale(1.02);
+}
+.signin {
+  display: flex;
+}
+.signin p,
+a {
+  align-self: center;
+}
+.signin a {
+  padding-left: 1rem;
+}
+/* 
+==============
+header
+==============
+*/
+.header {
+  position: fixed;
+  height: 3.5rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  padding: 10px 15px;
+  background: #0d1326;
+  box-shadow: 0 1px 10px rgba(13, 19, 38, 0.5);
+  color: white;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

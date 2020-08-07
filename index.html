@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome-Login</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <h3>bank e-statement</h3>
+    </header>
+    <!-- end of header -->
+    <div class="container">
+      <div class="box box-1">
+        <h1>
+          manage your bank account
+        </h1>
+        <p>
+          easy way to manage your multiple bank accounts
+        </p>
+        <img src="./images/graph image.jpg" alt="index image" />
+      </div>
+      <div class="box box-2">
+        <h3>login to your account</h3>
+        <h4>enter your details to login</h4>
+        <form name="myform">
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Username"
+          />
+          <input
+            type="password"
+            class="form-control"
+            id="pass"
+            placeholder="Password"
+          />
+          <button value="Submit" class="btn" id="but" onclick="validate()">
+            log in
+          </button>
+          <div class="container signin">
+          <p>don't have an account?</p>
+            <a href="pers.html"> <button class="btn">sign in</button> </a>
+          <div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

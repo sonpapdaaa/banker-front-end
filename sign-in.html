@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome-sign-in</title>
+    <link rel="stylesheet" href="./css/styles2.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <h3>bank e-statement</h3>
+    </header>
+    <!-- end of header -->
+    <div class="container">
+      <div class="box box-1">
+        <h1>
+          manage your bank account
+        </h1>
+        <p>
+          easy way to manage your multiple bank accounts
+        </p>
+        <img src="./images/graph image.jpg" alt="index image" />
+      </div>
+      <div class="box box-2">
+        <h3>Sign in to create a new account</h3>
+        <h4>enter your details to sign in</h4>
+        <form name="myform" action="sub.html">
+          <div class="container column">
+            <label class="dert" for="name"> Name: </label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your name"
+              size="45"
+              class="form-control"
+            />
+          </div>
+          <div class="container column">
+            <label class="dert" for="mail"> Email: </label>
+            <input
+              type="text"
+              id="mail"
+              placeholder="Enter your email"
+              size="45"
+              class="form-control"
+            />
+          </div>
+          <div class="container column">
+            <label class="dert" for="mob"> Mobile: </label>
+            <input
+              type="text"
+              id="mob"
+              placeholder="Enter your contact number"
+              size="45"
+              class="form-control"
+            />
+          </div>
+          <div class="container column">
+            <label class="dert" for="ag"> Address: </label>
+            <input
+              type="text"
+              id="ag"
+              placeholder="Enter your Address"
+              size="45"
+              class="form-control"
+            />
+          </div>
+          <div class="container column">
+            <label class="dert" for="pass"> Set Password: </label>
+            <input
+              type="password"
+              id="pass"
+              placeholder="Enter a suitable password"
+              size="45"
+              class="form-control"
+            />
+          </div>
+          <div class="container column">
+            <label class="dert" for="cpass"> Confirm Password: </label>
+            <input
+              type="password"
+              id="cpass"
+              placeholder="Re-Enter your password"
+              size="45"
+              class="form-control"
+            />
+          </div>
+          <div class="container-btn">
+            <button onclick="return msg()" value="submit" class="btn">
+              Submit and next
+            </button>
+            <input type="reset" class="btn" id="res" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
